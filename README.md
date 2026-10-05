@@ -1,8 +1,8 @@
 # lorenzodeluca.it
 My personal website
 
-last modified: 2022-04-04
+last modified: 2026-10-05
 
 TODO:
-- trash everything
-- redo with ?angular?
+- improve external links
+- update content
