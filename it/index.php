@@ -54,8 +54,7 @@
     </div>
     <div class="contact">
      Informazioni di contatto:<br>
-     <i class="fa-solid fa-at icon"></i><a href="mailto:lorenzo@deluca.pro">lorenzo@deluca.pro</a><br>
-     <i class="fa-solid fa-at icon"></i><a href="mailto:venezia@lorenzodeluca.it">venezia@lorenzodeluca.it</a><br>
+     <i class="fa-solid fa-at icon"></i><a href="mailto:info@lorenzodeluca.it">info@lorenzodeluca.it</a><br>
      <i class="fa-brands fa-linkedin icon"></i><a href="https://www.linkedin.com/in/lorenzodeluca">Linkedin</a><br>
      <i class="fa-brands fa-github icon"></i><a href="https://github.com/lorenzodeluca">Github</a><br>
      <i class="fa-brands fa-gitlab icon"></i><a href="https://gitlab.com/lorenzodeluca">Gitlab</a><br>

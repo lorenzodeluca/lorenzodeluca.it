@@ -272,8 +272,7 @@ window.addEventListener('keydown', (event) => {
 // 5. Interactive Terminal Engine (Powers both Hero inline & Modal terminals)
 (function initTerminals() {
   const LINKS = {
-    email: { label: 'Email (Primary)', value: 'lorenzo@deluca.pro', href: 'mailto:lorenzo@deluca.pro' },
-    email2: { label: 'Email (Venice)', value: 'venezia@lorenzodeluca.it', href: 'mailto:venezia@lorenzodeluca.it' },
+    email: { label: 'Email', value: 'info@lorenzodeluca.it', href: 'mailto:info@lorenzodeluca.it' },
     github: { label: 'GitHub', value: 'github.com/lorenzodeluca', href: 'https://github.com/lorenzodeluca' },
     linkedin: { label: 'LinkedIn', value: 'linkedin.com/in/lorenzodeluca', href: 'https://www.linkedin.com/in/lorenzodeluca' },
     gitlab: { label: 'GitLab', value: 'gitlab.com/lorenzodeluca', href: 'https://gitlab.com/lorenzodeluca' },
@@ -423,14 +422,14 @@ window.addEventListener('keydown', (event) => {
         ' · ',
         linkEl(LINKS.linkedin.href, 'LinkedIn'),
         ' · ',
-        linkEl(LINKS.email.href, 'lorenzo@deluca.pro'),
+        linkEl(LINKS.email.href, LINKS.email.value),
       ]);
       return frag;
     }
 
     if (cmd === 'links' || cmd === 'contact') {
       appendLine(frag, [el('span', 'term-accent', 'Direct Contact & Profiles:')]);
-      const order = ['email', 'email2', 'github', 'linkedin', 'gitlab', 'stackoverflow', 'hackthebox'];
+      const order = ['email', 'github', 'linkedin', 'gitlab', 'stackoverflow', 'hackthebox'];
       for (const key of order) {
         const item = LINKS[key];
         appendLine(frag, ['  ', el('span', 'term-accent2', item.label.padEnd(16, ' ')), linkEl(item.href, item.value)]);
@@ -524,7 +523,7 @@ window.addEventListener('keydown', (event) => {
       }
       if (arg === 'links.json') {
         appendLine(frag, ['{']);
-        appendLine(frag, ['  "email": "', linkEl(LINKS.email.href, 'lorenzo@deluca.pro'), '",']);
+        appendLine(frag, ['  "email": "', linkEl(LINKS.email.href, LINKS.email.value), '",']);
         appendLine(frag, ['  "github": "', linkEl(LINKS.github.href, LINKS.github.href), '",']);
         appendLine(frag, ['  "linkedin": "', linkEl(LINKS.linkedin.href, LINKS.linkedin.href), '",']);
         appendLine(frag, ['  "gitlab": "', linkEl(LINKS.gitlab.href, LINKS.gitlab.href), '"']);
@@ -586,7 +585,7 @@ window.addEventListener('keydown', (event) => {
       if (arg.startsWith('hire')) {
         appendLine(frag, [el('span', 'term-ok', '[sudo] authentication bypassed for recruiter.')]);
         appendLine(frag, ['Ready for systems, cloud, AI, or full-stack engineering roles.']);
-        appendLine(frag, ['Reach out directly: ', linkEl(LINKS.email.href, 'lorenzo@deluca.pro'), ' · ', linkEl(LINKS.linkedin.href, 'LinkedIn')]);
+        appendLine(frag, ['Reach out directly: ', linkEl(LINKS.email.href, LINKS.email.value), ' · ', linkEl(LINKS.linkedin.href, 'LinkedIn')]);
       } else {
         appendLine(frag, [el('span', 'term-accent2', 'Nice try! '), 'This incident will be reported (or rewarded with an interview).']);
       }

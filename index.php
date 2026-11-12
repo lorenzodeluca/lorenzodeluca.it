@@ -57,7 +57,7 @@
               </a>
             </li>
             <li>
-              <a href="mailto:lorenzo@deluca.pro">
+              <a href="mailto:info@lorenzodeluca.it">
                 <span class="nav-ext">Email ↗</span>
               </a>
             </li>
@@ -110,36 +110,14 @@
 
             <div class="email-row">
               <div class="email-chip email-chip--primary">
-                <a id="primary-email" class="email-link" href="mailto:lorenzo@deluca.pro">lorenzo@deluca.pro</a>
+                <a id="primary-email" class="email-link" href="mailto:info@lorenzodeluca.it">info@lorenzodeluca.it</a>
                 <span class="copy">
                   <button
                     type="button"
                     class="copy-button"
                     command="--copy"
                     commandfor="primary-email"
-                    aria-label="Copy primary email lorenzo@deluca.pro"
-                  >
-                    <svg class="sr-icon icon-copy" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <rect x="9" y="9" width="13" height="13" rx="2"/>
-                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                    </svg>
-                    <svg class="sr-icon icon-check" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <polyline points="20 6 9 17 4 12"/>
-                    </svg>
-                  </button>
-                  <span class="copy-tip" role="status"></span>
-                </span>
-              </div>
-
-              <div class="email-chip">
-                <a id="secondary-email" class="email-link" href="mailto:venezia@lorenzodeluca.it">venezia@lorenzodeluca.it</a>
-                <span class="copy">
-                  <button
-                    type="button"
-                    class="copy-button"
-                    command="--copy"
-                    commandfor="secondary-email"
-                    aria-label="Copy secondary email venezia@lorenzodeluca.it"
+                    aria-label="Copy email info@lorenzodeluca.it"
                   >
                     <svg class="sr-icon icon-copy" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <rect x="9" y="9" width="13" height="13" rx="2"/>
@@ -702,8 +680,8 @@
           </div>
           <ul class="profile-links">
             <li>
-              <a class="profile-pill profile-pill--primary" href="mailto:lorenzo@deluca.pro">
-                <span>lorenzo@deluca.pro</span>
+              <a class="profile-pill profile-pill--primary" href="mailto:info@lorenzodeluca.it">
+                <span>info@lorenzodeluca.it</span>
                 <span class="pill-arrow" aria-hidden="true">↗</span>
               </a>
             </li>
