@@ -1,8 +1,7 @@
 # lorenzodeluca.it
 My personal website
 
-last modified: 2026-10-05
+last modified: 2026-11-12
 
 TODO:
-- improve external links
 - update content
